@@ -9,7 +9,7 @@ html {
 
 
 body {
-    background-color: rgb(51, 9, 70);
+    background-color: rgb(105, 21, 145);
     font-style: italic;
 }
 
@@ -143,9 +143,10 @@ th, td {
     color:rgb(128, 128, 214)
 }
 
-.p2p
+.p2p::first-line
 {
  letter-spacing: 7px;
+ text-indent: 20px;
 }
 
 .colortext {
@@ -204,8 +205,8 @@ tr:last-child{
 form {
     border: 8px solid rgb(27, 27, 27);
     background-color: rgb(220, 109, 253);
-    margin-left: 750px;
-    margin-right: 750px;
+    margin: 0 auto;
+    
 }
 
 #contact-form input[type="email"] {
@@ -244,4 +245,9 @@ form {
 
 .uuu {
     font-size: 18px;
+}
+
+q:lang(en) {
+    font-size: 50px;
+    text-decoration: dashed;
 }
